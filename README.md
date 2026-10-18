@@ -58,18 +58,6 @@ Abra o link: **https://vnniwzx.github.io/Portfolio/**
 
 Todos os arquivos precisam ficar na mesma pasta para o site carregar o estilo, os scripts e a foto.
 
-## Como publicar no GitHub Pages
-
-1. Envie os arquivos para o repositório **Portfolio** (botão **Add file → Upload files**).
-2. Vá em **Settings → Pages**.
-3. Em **Source**, escolha **Deploy from a branch**.
-4. Selecione a branch **main**, a pasta **/ (root)** e clique em **Save**.
-5. Aguarde de 1 a 2 minutos. O site vai estar em `https://vnniwzx.github.io/Portfolio/`.
-
-## Curiosidade
-
-Tem um easter egg para gamers escondido no site. Digite ↑ ↑ ↓ ↓ ← → ← → B A com a página aberta. 🎮
-
 ## Contato
 
 - **E-mail:** viniciusfurts@gmail.com
