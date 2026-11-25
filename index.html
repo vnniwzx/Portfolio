@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Vinicius Furtado | Desenvolvedor Full Stack em formação</title>
+<meta name="description" content="Vinicius Furtado, 17 anos, estudante de Desenvolvimento Full Stack na FIAP School e criador do Firmou, uma agenda online com sinal no Pix.">
+<meta property="og:title" content="Vinicius Furtado | Desenvolvedor Full Stack em formação">
+<meta property="og:description" content="Criador do Firmou (firmouweb.com.br). Python, JavaScript, C# e SQL Server. Aberto a estágio.">
+<meta name="theme-color" content="#F4F2ED">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2315171A'/%3E%3Ctext x='32' y='42' text-anchor='middle' font-family='Arial,sans-serif' font-weight='800' font-size='26' fill='%23F4F2ED'%3EVF%3C/text%3E%3Ccircle cx='49' cy='17' r='6' fill='%23E4572E'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700;800&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="style.css">
+<script>document.documentElement.dataset.theme=localStorage.getItem("theme")||(matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light")</script>
+</head>
+<body>
+<div id="progress" aria-hidden="true"></div>
+
+<nav class="nav" aria-label="Principal">
+  <div class="wrap nav-in">
+    <a class="logo" href="#top" aria-label="Início"><b>VF</b><span>Vinicius Furtado</span></a>
+    <ul class="links">
+      <li><a href="#firmou">Firmou</a></li>
+      <li><a href="#trajetoria">Trajetória</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projetos">Projetos</a></li>
+    </ul>
+    <div class="nav-actions">
+      <button class="icon-btn" id="theme" type="button" aria-label="Alternar tema claro e escuro">
+        <svg class="sun" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><circle cx="12" cy="12" r="4.5" fill="currentColor"/><g stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 2v2M12 20v2M2 12h2M20 12h2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></g></svg>
+        <svg class="moon" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z" fill="currentColor"/></svg>
+      </button>
+      <a class="btn solid sm" href="#contato">Contato</a>
+    </div>
+  </div>
+</nav>
+
+<main>
+<header class="hero wrap" id="top">
+  <div class="hero-text">
+    <span class="status"><i></i>Disponível para estágio</span>
+    <h1>Vinicius<br><em>Furtado</em></h1>
+    <p class="role">Desenvolvedor Full Stack em formação. Eu construo <span class="typed" id="typed">produtos web</span><span class="caret" aria-hidden="true"></span></p>
+    <p class="intro">Tenho 17 anos, estudo na FIAP School e moro na Zona Leste de São Paulo. Em outubro de 2026 comecei o <a href="https://firmouweb.com.br" target="_blank" rel="noopener">Firmou</a>, uma agenda online com sinal no Pix que hoje está no ar e aberta para qualquer profissional usar.</p>
+    <div class="cta">
+      <a class="btn solid" href="#firmou">Ver o Firmou</a>
+      <a class="btn ghost" href="curriculo.pdf" target="_blank" rel="noopener">Baixar currículo</a>
+    </div>
+    <ul class="facts">
+      <li><b>17</b><span>anos</span></li>
+      <li><b>FIAP</b><span>técnico Full Stack</span></li>
+      <li><b>1</b><span>produto no ar</span></li>
+      <li><b>3</b><span>idiomas</span></li>
+    </ul>
+  </div>
+  <figure class="photo" id="photo">
+    <img src="foto.jpg" alt="Foto de Vinicius Furtado" onerror="this.parentElement.classList.add('empty');this.remove()">
+    <div class="photo-empty" aria-hidden="true"><b>VF</b><span>coloque sua foto em foto.jpg</span></div>
+    <figcaption><span class="mono">São Paulo · ZL</span><span class="mono">2026</span></figcaption>
+  </figure>
+</header>
+
+<div class="ticker" aria-hidden="true">
+  <div class="ticker-track">
+    <span>Python</span><span>JavaScript</span><span>TypeScript</span><span>Next.js</span><span>C#</span><span>SQL Server</span><span>PostgreSQL</span><span>HTML</span><span>CSS</span><span>Excel</span><span>ESP32 · MQTT</span><span>Pix · Mercado Pago</span>
+    <span>Python</span><span>JavaScript</span><span>TypeScript</span><span>Next.js</span><span>C#</span><span>SQL Server</span><span>PostgreSQL</span><span>HTML</span><span>CSS</span><span>Excel</span><span>ESP32 · MQTT</span><span>Pix · Mercado Pago</span>
+  </div>
+</div>
+
+<section id="firmou" class="wrap">
+  <div class="sec-head reveal">
+    <span class="eyebrow">01 · Projeto principal</span>
+    <h2>Firmou: <em>marcou, pagou, firmou.</em></h2>
+  </div>
+  <div class="firmou">
+    <div class="firmou-copy reveal">
+      <p class="lead">Barbeiros e outros profissionais perdem dinheiro com cliente que marca e não aparece. O Firmou resolve isso: o cliente escolhe o horário em uma página própria do profissional, paga um sinal no Pix e recebe lembrete por e-mail.</p>
+      <p>Comecei em outubro de 2026 e cuidei de todas as etapas, da ideia ao site no ar: produto, design, desenvolvimento, integração de pagamento e publicação.</p>
+      <ul class="checks">
+        <li>Página de agendamento por profissional, com serviços, preços e horários</li>
+        <li>Sinal no Pix gerado na conta Mercado Pago do próprio profissional</li>
+        <li>Lembrete automático por e-mail e regras de cancelamento com devolução do sinal</li>
+        <li>Agenda do dia e da semana, presença e falta, bloqueios e folgas</li>
+        <li>Login com Google ou e-mail, equipe e avaliações de clientes</li>
+        <li>Plano grátis e plano pago com teste de 30 dias</li>
+      </ul>
+      <div class="stack">
+        <span>Next.js</span><span>React</span><span>TypeScript</span><span>Tailwind CSS</span><span>PostgreSQL</span><span>Drizzle ORM</span><span>API do Mercado Pago</span><span>AWS Amplify</span><span>GitHub Actions</span>
+      </div>
+      <div class="cta">
+        <a class="btn solid" href="https://firmouweb.com.br" target="_blank" rel="noopener">Acessar firmouweb.com.br ↗</a>
+      </div>
+    </div>
+    <a class="device reveal" href="https://firmouweb.com.br" target="_blank" rel="noopener" aria-label="Abrir o Firmou em uma nova aba">
+      <div class="device-bar"><i></i><i></i><i></i><span>firmouweb.com.br/barbearia-exemplo</span></div>
+      <div class="device-body">
+        <div class="agenda-head"><b>Sábado</b><span class="pill ok">4 com sinal pago</span></div>
+        <ul class="agenda">
+          <li><time>09:00</time><div><b>Rafael</b><small>Corte + barba</small></div><span class="pill ok">Firmou</span></li>
+          <li><time>09:45</time><div><b>Diego</b><small>Corte</small></div><span class="pill ok">Firmou</span></li>
+          <li class="free"><time>10:30</time><div><b>Horário livre</b><small>disponível na sua página</small></div></li>
+          <li><time>11:15</time><div><b>Mateus</b><small>Corte degradê</small></div><span class="pill wait">Aguardando Pix</span></li>
+          <li><time>13:30</time><div><b>João Pedro</b><small>Barba</small></div><span class="pill wait">Aguardando Pix</span></li>
+        </ul>
+      </div>
+    </a>
+  </div>
+</section>
+
+<section id="trajetoria" class="wrap">
+  <div class="sec-head reveal">
+    <span class="eyebrow">02 · Trajetória</span>
+    <h2>Experiência e <em>formação</em></h2>
+  </div>
+  <div class="two">
+    <div class="reveal">
+      <h3 class="col-title mono">Experiência</h3>
+      <article class="item">
+        <div class="item-top"><h4>Jovem Aprendiz · Administrativo Operacional</h4><span class="mono">ago. 2026 – atual</span></div>
+        <p class="org">MBI LOG EXPRESS · transportadora</p>
+        <ul>
+          <li>Opero o TRACKen Operacional (TMS) no acompanhamento de pedidos e entregas.</li>
+          <li>Confiro todos os dias os pedidos em rota do marketplace e aviso a equipe sobre pendências.</li>
+          <li>Uso o Excel para organizar controles, conferir dados e montar planilhas do dia a dia.</li>
+          <li>Trabalho junto com a equipe e falo com pessoas de várias áreas para resolver problemas na hora.</li>
+        </ul>
+      </article>
+    </div>
+    <div class="reveal">
+      <h3 class="col-title mono">Formação</h3>
+      <article class="item">
+        <div class="item-top"><h4>Técnico em Desenvolvimento Full Stack</h4><span class="mono">2025 – dez. 2027</span></div>
+        <p class="org">FIAP School · unidade Lins, São Paulo</p>
+      </article>
+      <article class="item">
+        <div class="item-top"><h4>Bacharelado em Engenharia de Software</h4><span class="mono">ingresso em 2028</span></div>
+        <p class="org">FIAP · São Paulo</p>
+      </article>
+      <article class="item">
+        <div class="item-top"><h4>Ensino Fundamental</h4><span class="mono">concluído em 2024</span></div>
+        <p class="org">Colégio Vida Nova · São Paulo</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="skills" class="wrap">
+  <div class="sec-head reveal">
+    <span class="eyebrow">03 · Skills</span>
+    <h2>O que eu <em>uso</em></h2>
+  </div>
+  <h3 class="col-title mono">Linguagens</h3>
+  <div class="techs">
+      <div class="tech reveal"><span class="ico"><img src="img/skills/python.png" alt="" loading="lazy"></span><div><b>Python</b><small>Lógica, dados, arquivos</small></div></div>
+      <div class="tech full reveal"><span class="ico"><img src="img/skills/javascript.png" alt="" loading="lazy"></span><div><b>JavaScript</b><small>Interatividade na web</small></div></div>
+      <div class="tech full reveal"><span class="ico"><img src="img/skills/typescript.png" alt="" loading="lazy"></span><div><b>TypeScript</b><small>Usado em todo o Firmou</small></div></div>
+      <div class="tech reveal"><span class="ico"><img src="img/skills/csharp.png" alt="" loading="lazy"></span><div><b>C#</b><small>Orientação a objetos</small></div></div>
+      <div class="tech reveal"><span class="ico"><img src="img/skills/html.png" alt="" loading="lazy"></span><div><b>HTML</b><small>Estrutura e semântica</small></div></div>
+      <div class="tech reveal"><span class="ico"><img src="img/skills/css.png" alt="" loading="lazy"></span><div><b>CSS</b><small>Layout e responsivo</small></div></div>
+  </div>
+  <h3 class="col-title mono" style="margin-top:36px">Frameworks e bancos de dados</h3>
+  <div class="techs four">
+      <div class="tech reveal"><span class="ico"><img src="img/skills/react.png" alt="" loading="lazy"></span><div><b>React</b><small>Interfaces do Firmou</small></div></div>
+      <div class="tech reveal"><span class="ico"><img src="img/skills/nextjs.png" alt="" loading="lazy"></span><div><b>Next.js</b><small>Front e back juntos</small></div></div>
+      <div class="tech reveal"><span class="ico"><img src="img/skills/postgresql.png" alt="" loading="lazy"></span><div><b>PostgreSQL</b><small>Banco de dados do Firmou</small></div></div>
+      <div class="tech reveal"><span class="ico"><img src="img/skills/sqlserver.png" alt="" loading="lazy"></span><div><b>SQL Server</b><small>Modelagem e consultas</small></div></div>
+  </div>
+  <h3 class="col-title mono" style="margin-top:36px">Ferramentas e sistemas</h3>
+  <div class="techs">
+      <div class="tech reveal"><span class="ico"><img src="img/skills/excel.png" alt="" loading="lazy"></span><div><b>Excel</b><small>Controles e planilhas</small></div></div>
+      <div class="tech full reveal"><span class="ico"><img src="img/skills/tracken.png" alt="" loading="lazy"></span><div><b>TRACKen</b><small>Sistema de transportes (TMS)</small></div></div>
+      <div class="tech full reveal"><span class="ico"><img src="img/skills/mercadopago.png" alt="" loading="lazy"></span><div><b>Mercado Pago</b><small>API de pagamentos via Pix</small></div></div>
+      <div class="tech reveal"><span class="ico"><img src="img/skills/github.png" alt="" loading="lazy"></span><div><b>GitHub</b><small>Versionamento e automações</small></div></div>
+      <div class="tech reveal"><span class="ico"><img src="img/skills/mqtt.png" alt="" loading="lazy"></span><div><b>MQTT</b><small>Comunicação IoT</small></div></div>
+      <div class="tech reveal"><span class="ico"><img src="img/skills/wokwi.png" alt="" loading="lazy"></span><div><b>Wokwi</b><small>Simulação de ESP32</small></div></div>
+  </div>
+  <div class="langs reveal">
+    <span class="mono">Idiomas</span>
+    <span><b>Português</b> nativo</span><span><b>Inglês</b> avançado</span><span><b>Francês</b> iniciante</span>
+  </div>
+  <p class="soft reveal">Organização, comunicação, trabalho em equipe e facilidade para aprender coisas novas.</p>
+</section>
+
+<section id="projetos" class="wrap">
+  <div class="sec-head reveal">
+    <span class="eyebrow">04 · Outros projetos</span>
+    <h2>Do curso e <em>em grupo</em></h2>
+  </div>
+  <div class="projects">
+    <article class="proj reveal">
+      <span class="mono">IoT · em grupo</span>
+      <h3>Catraca com controle de lotação</h3>
+      <p>Monitoramento de lotação com alertas, simulado no Wokwi com ESP32 e protocolo MQTT.</p>
+    </article>
+    <article class="proj reveal">
+      <span class="mono">Web</span>
+      <h3>Site para empresa de logística</h3>
+      <p>Site institucional para uma empresa do setor de logística.</p>
+    </article>
+    <a class="proj reveal" href="https://github.com/vnniwzx/Sistema-Hospitalar" target="_blank" rel="noopener">
+      <span class="mono">T-SQL</span>
+      <h3>Sistema Hospitalar ↗</h3>
+      <p>Modelagem e consultas de um banco de dados hospitalar no SQL Server.</p>
+    </a>
+    <a class="proj reveal" href="https://github.com/vnniwzx/Sistema_RPG" target="_blank" rel="noopener">
+      <span class="mono">Python</span>
+      <h3>Sistema de RPG ↗</h3>
+      <p>Lógica de jogo em Python: personagens, atributos e combate.</p>
+    </a>
+    <a class="proj reveal" href="https://github.com/vnniwzx/Cadastrar-Jogadores" target="_blank" rel="noopener">
+      <span class="mono">Python</span>
+      <h3>Cadastro de jogadores ↗</h3>
+      <p>Cadastro e organização de jogadores com estruturas de dados.</p>
+    </a>
+    <article class="proj reveal">
+      <span class="mono">Mobile · em grupo</span>
+      <h3>Trifarmas</h3>
+      <p>Aplicativo feito em grupo na disciplina de Desenvolvimento Mobile e apresentado na Future Fest da FIAP.</p>
+    </article>
+  </div>
+  <a class="more reveal" href="https://github.com/vnniwzx?tab=repositories" target="_blank" rel="noopener">Ver todos os repositórios no GitHub ↗</a>
+</section>
+
+<section id="contato" class="wrap">
+  <div class="contact reveal">
+    <span class="eyebrow">05 · Contato</span>
+    <h2>Vamos <em>conversar?</em></h2>
+    <p class="lead">Procuro estágio em desenvolvimento, suporte ou operações. Respondo rápido por WhatsApp e e-mail.</p>
+    <div class="contact-grid">
+      <button class="c-item" type="button" data-copy="viniciusfurts@gmail.com"><span class="mono">E-mail</span><b>viniciusfurts@gmail.com</b><small>clique para copiar</small></button>
+      <a class="c-item" href="https://wa.me/5511914150572" target="_blank" rel="noopener"><span class="mono">WhatsApp</span><b>(11) 91415-0572</b><small>abrir conversa ↗</small></a>
+      <a class="c-item" href="https://www.linkedin.com/in/vifurtado/" target="_blank" rel="noopener"><span class="mono">LinkedIn</span><b>in/vifurtado</b><small>ver perfil ↗</small></a>
+      <a class="c-item" href="https://github.com/vnniwzx" target="_blank" rel="noopener"><span class="mono">GitHub</span><b>vnniwzx</b><small>ver código ↗</small></a>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="wrap foot"><span>© 2026 Vinicius Furtado</span><span class="mono">Feito à mão em HTML, CSS e JS</span></footer>
+<div id="toast" role="status" aria-live="polite"></div>
+<script src="script.js"></script>
+</body>
+</html>
